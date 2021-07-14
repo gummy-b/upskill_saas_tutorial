@@ -18,8 +18,30 @@
 @import 'bootstrap';
 
 
+
 h1,
 h2,
 h3 {
     font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    //Gradient from uigradients.com 
+    background: #36D1DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*Too intense but its also cool*/
+    // background: #0F2027;
+    // /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    // /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    // /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*About Page. Cool Gradient colors below*/
+    // background: rgb(55, 165, 156);
+    // background: linear-gradient(180deg, rgba(55, 165, 156, 1) 0%, rgba(242, 202, 142, 1) 60%, rgba(224, 141, 101, 1) 93%, rgba(255, 255, 254, 1) 94%, rgba(255, 255, 255, 1) 100%);
 }

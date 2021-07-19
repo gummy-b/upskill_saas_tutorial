@@ -18,13 +18,13 @@
 @import 'bootstrap';
 
 
-
-h1,
+//Typography
 h2,
 h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+//Home page styles
 .navbar,
 .home-callout {
     //Gradient from uigradients.com
@@ -54,24 +54,18 @@ h3 {
     padding-bottom: 100px;
 }
 
+//Navbar styles
 .navbar {
     border: none;
 }
 
-.navbar-default .navbar-brand {
-    color: white;
-}
 
-.navbar-default .navbar-brand:hover {
-    color: white;
-    opacity: 0.75;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
     color: white;
-}
 
-.navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    opacity: 0.75;
+    &:hover {
+        color: white;
+        opacity: 0.75;
+    }
 }

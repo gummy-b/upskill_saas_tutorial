@@ -1,7 +1,7 @@
 class ContactMailer < ActionMailer::Base
     default to: 'mcbride.mogale@gmail.com'
     
-    def create_mail(name, email, body)
+    def contact_mailer(name, email, body)
         @name = name
         @email = email 
         @body = body

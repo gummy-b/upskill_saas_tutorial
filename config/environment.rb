@@ -12,6 +12,5 @@ ActionMailer::Base.smtp_settings = {
     :password       => ENV['MAILGUN_SMTP_PASSWORD'],
     :domain         => 'enigmatic-hamlet-71031.herokuapp.com',
     :authentication => :plain,
-}
-
-ActionMailer::Base.delivery_method = :smtp
+  }
+  ActionMailer::Base.delivery_method = :smtp
